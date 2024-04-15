@@ -4,6 +4,8 @@
     "module": "esnext",
     "baseUrl": "./",
     "moduleResolution": "node",
+    // ▼ jsx 이거 한줄 추가
+    "jsx": "preserve", 
     "paths": {
       "@/*": [
         "src/*"
@@ -14,6 +16,7 @@
       "dom",
       "dom.iterable",
       "scripthost"
+      
     ]
   }
 }
